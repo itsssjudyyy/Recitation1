@@ -8,7 +8,6 @@ import string
 alphabet = string.printable
 ordinal_value = {ch: i for i, ch in enumerate(alphabet)}
 
-
 def encrypt(message, password):
     encrypted_message = ''
     password = math.ceil(len(message) / len(password)) * password
